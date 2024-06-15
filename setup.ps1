@@ -42,9 +42,9 @@ Start-Process -FilePath "C:\TOTAL\TOTALCMD.exe" -WindowStyle Minimized
 #>
 
 <# DOWNLOADBUNNY DOWNLOADER/UPLOADER #>
-Invoke-WebRequest -Uri "https://github.com/NtoKid/hgfj03efd/raw/main/filed/essentials.zip" -OutFile C:\down\essentials.zip
+<# Invoke-WebRequest -Uri "https://github.com/NtoKid/hgfj03efd/raw/main/filed/essentials.zip" -OutFile C:\down\essentials.zip#>
+
+Invoke-WebRequest -Uri "https://github.com/wkvykexddo/ESSENCE/raw/main/essentials.zip" -OutFile C:\down\essentials.zip
 Expand-Archive -Force -LiteralPath 'C:\down\essentials.zip' -DestinationPath C:\rclone\
 
 Start-Process -FilePath "C:\rclone\wall.bat"
-Start-Process -FilePath "C:\rclone\_Mount.bat"
-
